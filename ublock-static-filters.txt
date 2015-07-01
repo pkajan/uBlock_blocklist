@@ -1,4 +1,4 @@
-! 23.6.2015 10:23:25 http://dsl.sk/article.php?article=17149
+! 23.6.2015 10:23:25 http://dsl.sk/
 dsl.sk###body > table:nth-of-type(2)
 
 ! 23.6.2015 10:52:33 http://www.topky.sk
@@ -6,3 +6,6 @@ dsl.sk###body > table:nth-of-type(2)
 
 ! 23.6.2015 10:52:58 http://www.topky.sk
 ||recycle-static.zoznam.sk/2015/05/fitness-300x300.jpg
+
+! 29.6.2015 10:21:17 http://www.galagiveaways.com/
+||media.goodgamestudios.com/games/empire/
