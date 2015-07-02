@@ -9,3 +9,12 @@ dsl.sk###body > table:nth-of-type(2)
 
 ! 29.6.2015 10:21:17 http://www.galagiveaways.com/
 ||media.goodgamestudios.com/games/empire/
+
+! 2.7.2015 18:44:41 http://www.galagiveaways.com/
+www.galagiveaways.com###content > .height114.ads:nth-of-type(1)
+
+! 2.7.2015 18:45:27 http://www.galagiveaways.com/
+www.galagiveaways.com###content > .height114.ads:nth-of-type(2)
+
+! 2.7.2015 18:48:08 http://www.galagiveaways.com/
+www.galagiveaways.com###content > .position-featured > .layout-2-column
