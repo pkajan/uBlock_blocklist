@@ -18,3 +18,14 @@ www.galagiveaways.com###content > .height114.ads:nth-of-type(2)
 
 ! 2.7.2015 18:48:08 http://www.galagiveaways.com/
 www.galagiveaways.com###content > .position-featured > .layout-2-column
+
+! 6.7.2015 13:39:50 http://www.topky.sk/
+||recycle-static.zoznam.sk/*/*/*.jpg
+
+! 6.7.2015 13:40:18 http://www.topky.sk/
+||kariera.zoznam.sk/?page=banner
+
+! 6.7.2015 13:40:33 http://www.topky.sk/
+||recycle-static.zoznam.sk/*/*/*.swf
+
+
