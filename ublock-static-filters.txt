@@ -28,4 +28,6 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 ! 6.7.2015 13:40:33 http://www.topky.sk/
 ||recycle-static.zoznam.sk/*/*/*.swf
 
+! 9.7.2015 11:57:56 http://historyweb.dennikn.sk
+||historyweb.dennikn.sk/uploads/banners/*.jpg
 
