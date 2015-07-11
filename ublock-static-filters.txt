@@ -31,3 +31,8 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 ! 9.7.2015 11:57:56 http://historyweb.dennikn.sk
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
+! 11.7.2015 12:01:56 http://kissanime.com/
+kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
+
+! 11.7.2015 12:02:13 http://kissanime.com/
+||kissanime.com/ads/madads.aspx
