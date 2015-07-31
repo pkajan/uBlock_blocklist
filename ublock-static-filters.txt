@@ -57,3 +57,21 @@ www.imgnip.com###overlayBg
 
 ! 27.7.2015 7:22:42 http://www.topky.sk
 ||recycle-static.zoznam.sk/2015/07/m4_aqua/layer_m4_aqua.swf
+
+! 27.7.2015 11:07:15 http://gallerynova.se/
+gallerynova.se###works
+
+! 30.7.2015 12:54:46 http://www.topserialy.sk
+||sk.search.etargetnet.com/generic/generic.php
+
+! 30.7.2015 13:39:21 http://www.topserialy.sk
+www.topserialy.sk##body > div:nth-of-type(6)
+
+! 31.7.2015 11:07:23 http://9gag.com/
+9gag.com###jsid-idle-popup-container > .idle.modal
+
+! 31.7.2015 11:07:30 http://9gag.com/
+9gag.com###overlay-container
+
+
+
