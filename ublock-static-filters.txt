@@ -75,4 +75,5 @@ www.topserialy.sk##body > div:nth-of-type(6)
 
 @@||pla.folue.info/player/*
 @@||pla.folue.info/*
+@@||q41.twer.info/*
 
