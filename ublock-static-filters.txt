@@ -73,6 +73,9 @@ www.topserialy.sk##body > div:nth-of-type(6)
 ! 31.7.2015 11:07:30 http://9gag.com/
 9gag.com###overlay-container
 
+! 17. 8. 2015, 21:16:44 http://www.warxtreme.com
+||www.warxtreme.com/index_files/logo.swf
+
 @@||pla.folue.info/player/*
 @@||pla.folue.info/*
 @@||q41.twer.info/*
