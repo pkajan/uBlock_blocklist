@@ -55,3 +55,4 @@ gallerynova.se###works
 gallerynova.se###interstitialPageText
 gallerynova.se###techoxioPreloader
 gallerynova.se###bbbblink > div > div > div
+gallerynova.se##.__b-popup1__.b-modal
