@@ -1,31 +1,18 @@
 ! 23.6.2015 10:23:25 http://dsl.sk/
 dsl.sk###body > table:nth-of-type(2)
 
-! 23.6.2015 10:52:33 http://www.topky.sk
-||recycle-static.zoznam.sk/2015/06/250x700_mKonto_SK.gif
-
-! 23.6.2015 10:52:58 http://www.topky.sk
-||recycle-static.zoznam.sk/2015/05/fitness-300x300.jpg
-
-! 29.6.2015 10:21:17 http://www.galagiveaways.com/
-||media.goodgamestudios.com/games/empire/
-
 ! 2.7.2015 18:44:41 http://www.galagiveaways.com/
+||media.goodgamestudios.com/games/empire/
 www.galagiveaways.com###content > .height114.ads:nth-of-type(1)
-
-! 2.7.2015 18:45:27 http://www.galagiveaways.com/
 www.galagiveaways.com###content > .height114.ads:nth-of-type(2)
-
-! 2.7.2015 18:48:08 http://www.galagiveaways.com/
 www.galagiveaways.com###content > .position-featured > .layout-2-column
 
 ! 6.7.2015 13:39:50 http://www.topky.sk/
+||recycle-static.zoznam.sk/2015/06/250x700_mKonto_SK.gif
+||recycle-static.zoznam.sk/2015/05/fitness-300x300.jpg
+||recycle-static.zoznam.sk/2015/07/m4_aqua/layer_m4_aqua.swf
 ||recycle-static.zoznam.sk/*/*/*.jpg
-
-! 6.7.2015 13:40:18 http://www.topky.sk/
 ||kariera.zoznam.sk/?page=banner
-
-! 6.7.2015 13:40:33 http://www.topky.sk/
 ||recycle-static.zoznam.sk/*/*/*.swf
 
 ! 9.7.2015 11:57:56 http://historyweb.dennikn.sk
@@ -33,20 +20,12 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 
 ! 11.7.2015 12:01:56 http://kissanime.com/
 kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
-
-! 11.7.2015 12:02:13 http://kissanime.com/
 ||kissanime.com/ads/madads.aspx
 
 ! 16.7.2015 16:31:24 http://serialy.sledujufilmy.cz/
 ||serialy.sledujufilmy.cz/img/robot/w600xh190.png
-
-! 16.7.2015 16:32:36 http://serialy.sledujufilmy.cz/
 ||serialy.sledujufilmy.cz/img/robot/w970xh310.png
-
-! 16.7.2015 16:32:42 http://serialy.sledujufilmy.cz/
 serialy.sledujufilmy.cz###adspos38
-
-! 16.7.2015 16:32:49 http://serialy.sledujufilmy.cz/
 serialy.sledujufilmy.cz###episodes--list > dl > .animateIn.accordionItem > .advert-fix-height
 
 ! 19.7.2015 16:42:59 http://picfox.org/
@@ -55,22 +34,12 @@ picfox.org###overlayBg
 ! 19.7.2015 16:43:40 http://www.imgnip.com/
 www.imgnip.com###overlayBg
 
-! 27.7.2015 7:22:42 http://www.topky.sk
-||recycle-static.zoznam.sk/2015/07/m4_aqua/layer_m4_aqua.swf
-
-! 27.7.2015 11:07:15 http://gallerynova.se/
-gallerynova.se###works
-
 ! 30.7.2015 12:54:46 http://www.topserialy.sk
 ||sk.search.etargetnet.com/generic/generic.php
-
-! 30.7.2015 13:39:21 http://www.topserialy.sk
 www.topserialy.sk##body > div:nth-of-type(6)
 
 ! 31.7.2015 11:07:23 http://9gag.com/
 9gag.com###jsid-idle-popup-container > .idle.modal
-
-! 31.7.2015 11:07:30 http://9gag.com/
 9gag.com###overlay-container
 
 ! 17. 8. 2015, 21:16:44 http://www.warxtreme.com
@@ -80,3 +49,7 @@ www.topserialy.sk##body > div:nth-of-type(6)
 @@||pla.folue.info/*
 @@||q41.twer.info/*
 
+! 1. 9. 2015, 9:25:47 http://gallerynova.se
+gallerynova.se###works
+gallerynova.se###interstitialPageText
+gallerynova.se###techoxioPreloader
