@@ -50,6 +50,8 @@ www.topserialy.sk##body > div:nth-of-type(6)
 @@||q41.twer.info/*
 
 ! 1. 9. 2015, 9:25:47 http://gallerynova.se
+||gallerynova.se/themes/default/img/box/box-bg.png
 gallerynova.se###works
 gallerynova.se###interstitialPageText
 gallerynova.se###techoxioPreloader
+gallerynova.se###bbbblink > div > div > div
