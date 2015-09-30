@@ -56,3 +56,7 @@ gallerynova.se###interstitialPageText
 gallerynova.se###techoxioPreloader
 gallerynova.se###bbbblink > div > div > div
 gallerynova.se##.__b-popup1__.b-modal
+gallerynova.se###frameToShow
+
+! 4. 9. 2015, 22:45:51 http://konachan.com
+||konachan.com/images/bam/jlist7-1.jpg
