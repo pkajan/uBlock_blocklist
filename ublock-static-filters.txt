@@ -36,7 +36,8 @@ www.imgnip.com###overlayBg
 
 ! 30.7.2015 12:54:46 http://www.topserialy.sk
 ||sk.search.etargetnet.com/generic/generic.php
-www.topserialy.sk##body > div:nth-of-type(6)
+topserialy.sk##body > div:nth-of-type(6)
+topserialy.sk##script:contains(if (jQuery('#ad-box').css("display") == "none")) 
 
 ! 31.7.2015 11:07:23 http://9gag.com/
 9gag.com###jsid-idle-popup-container > .idle.modal
