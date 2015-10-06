@@ -61,3 +61,6 @@ gallerynova.se###frameToShow
 
 ! 4. 9. 2015, 22:45:51 http://konachan.com
 ||konachan.com/images/bam/jlist7-1.jpg
+
+! 6. 10. 2015, 11:20:51 http://animetorrents.me/
+||i.imgur.com/N0nb0xx.png
