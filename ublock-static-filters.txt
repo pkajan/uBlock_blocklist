@@ -1,13 +1,13 @@
-! 23.6.2015 10:23:25 http://dsl.sk/
+! dsl.sk/ 23.6.2015
 dsl.sk###body > table:nth-of-type(2)
 
-! 2.7.2015 18:44:41 http://www.galagiveaways.com/
+! galagiveaways.com/ 2.7.2015
 ||media.goodgamestudios.com/games/empire/
 www.galagiveaways.com###content > .height114.ads:nth-of-type(1)
 www.galagiveaways.com###content > .height114.ads:nth-of-type(2)
 www.galagiveaways.com###content > .position-featured > .layout-2-column
 
-! 6.7.2015 13:39:50 http://www.topky.sk/
+! topky.sk/ 6.7.2015
 ||recycle-static.zoznam.sk/2015/06/250x700_mKonto_SK.gif
 ||recycle-static.zoznam.sk/2015/05/fitness-300x300.jpg
 ||recycle-static.zoznam.sk/2015/07/m4_aqua/layer_m4_aqua.swf
@@ -15,42 +15,41 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 ||kariera.zoznam.sk/?page=banner
 ||recycle-static.zoznam.sk/*/*/*.swf
 
-! 9.7.2015 11:57:56 http://historyweb.dennikn.sk
+! historyweb.dennikn.sk 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
-! 11.7.2015 12:01:56 http://kissanime.com/
+! kissanime.com/ 11.7.2015
 kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
 ||kissanime.com/ads/madads.aspx
 
-! 16.7.2015 16:31:24 http://serialy.sledujufilmy.cz/
+! serialy.sledujufilmy.cz/ 16.7.2015
 ||serialy.sledujufilmy.cz/img/robot/w600xh190.png
 ||serialy.sledujufilmy.cz/img/robot/w970xh310.png
 serialy.sledujufilmy.cz###adspos38
 serialy.sledujufilmy.cz###episodes--list > dl > .animateIn.accordionItem > .advert-fix-height
 
-! 19.7.2015 16:42:59 http://picfox.org/
+! picfox.org/ 19.7.2015
 picfox.org###overlayBg
 
-! 19.7.2015 16:43:40 http://www.imgnip.com/
+! imgnip.com/ 19.7.2015
 www.imgnip.com###overlayBg
 
-! 30.7.2015 12:54:46 http://www.topserialy.sk
+! topserialy.sk 30.7.2015
 ||sk.search.etargetnet.com/generic/generic.php
 topserialy.sk##body > div:nth-of-type(6)
 topserialy.sk##script:contains(if (jQuery('#ad-box').css("display") == "none")) 
 
-! 31.7.2015 11:07:23 http://9gag.com/
+! 9gag.com/ 31.7.2015
 9gag.com###jsid-idle-popup-container > .idle.modal
 9gag.com###overlay-container
 
-! 17. 8. 2015, 21:16:44 http://www.warxtreme.com
+! warxtreme.com 17. 8. 2015
 ||www.warxtreme.com/index_files/logo.swf
 
-@@||pla.folue.info/player/*
-@@||pla.folue.info/*
-@@||q41.twer.info/*
+! video.anyfiles.pl/ 16.10.2015
+video.anyfiles.pl##div > .adblInfo
 
-! 1. 9. 2015, 9:25:47 http://gallerynova.se
+! gallerynova.se 1. 9. 2015
 ||gallerynova.se/themes/default/img/box/box-bg.png
 gallerynova.se###works
 gallerynova.se###interstitialPageText
@@ -59,8 +58,22 @@ gallerynova.se###bbbblink > div > div > div
 gallerynova.se##.__b-popup1__.b-modal
 gallerynova.se###frameToShow
 
-! 4. 9. 2015, 22:45:51 http://konachan.com
+! konachan.com 4. 9. 2015
 ||konachan.com/images/bam/jlist7-1.jpg
 
-! 6. 10. 2015, 11:20:51 http://animetorrents.me/
+! animetorrents.me/ 6. 10. 2015
 ||i.imgur.com/N0nb0xx.png
+
+! topserialy.sk/ 6. 10. 2015
+www.topserialy.sk##body > div:nth-of-type(9)
+
+! amk.to/ 15. 10. 2015
+www.amk.to##.fancybox-overlay-fixed.fancybox-overlay > .fancybox-opened.fancybox-type-inline.fancybox-desktop.fancybox-wrap > .fancybox-skin
+www.amk.to##.fancybox-overlay-fixed.fancybox-overlay
+
+! opensubtitles.org/ 15. 10. 2015
+opensubtitles.org##script:contains(jQuery("time.timeago").timeago();) 
+
+! filmy-serialy-online.tv/ 16. 10. 2015
+||filmy-serialy-online.tv/images/banner160x600.swf
+filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike({)
