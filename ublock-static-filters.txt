@@ -77,3 +77,10 @@ opensubtitles.org##script:contains(jQuery("time.timeago").timeago();)
 ! filmy-serialy-online.tv/ 16. 10. 2015
 ||filmy-serialy-online.tv/images/banner160x600.swf
 filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike({)
+
+! opensubtitles.org/ 18. 10. 2015
+@@||ads2.opensubtitles.org/1/www/delivery/*
+opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
+opensubtitles.org##IMG[src*="data:image/jpg;base64"]
+opensubtitles.org###ad1-placeholder
+opensubtitles.org##DIV.content[style="position:relative;"] > A
