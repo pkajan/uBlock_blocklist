@@ -1,3 +1,10 @@
+[Adblock Plus 2.0]
+! Title: pKajan AdBlock filter
+! Last modified: 23 Oct 2015 12:50 GMT+2
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/pkajan/My_uBlock_blocklist
+!
+
 ! dsl.sk/ 23.6.2015
 dsl.sk###body > table:nth-of-type(2)
 
