@@ -8,12 +8,11 @@ www.galagiveaways.com###content > .height114.ads:nth-of-type(2)
 www.galagiveaways.com###content > .position-featured > .layout-2-column
 
 ! topky.sk/ 6.7.2015
+||recycle-static.zoznam.sk/*.swf
 ||recycle-static.zoznam.sk/2015/06/250x700_mKonto_SK.gif
 ||recycle-static.zoznam.sk/2015/05/fitness-300x300.jpg
-||recycle-static.zoznam.sk/2015/07/m4_aqua/layer_m4_aqua.swf
 ||recycle-static.zoznam.sk/*/*/*.jpg
 ||kariera.zoznam.sk/?page=banner
-||recycle-static.zoznam.sk/*/*/*.swf
 
 ! historyweb.dennikn.sk 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
@@ -84,3 +83,9 @@ opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
 opensubtitles.org##IMG[src*="data:image/jpg;base64"]
 opensubtitles.org###ad1-placeholder
 opensubtitles.org##DIV.content[style="position:relative;"] > A
+
+! reklamne video 23. 10. 2015
+||https://www.youtube.com/embed/P-nkjs7L4cg*
+
+! sktorrent.eu/ 20. 10. 2015
+||sktorrent.eu/torrent/images/banner*.gif
