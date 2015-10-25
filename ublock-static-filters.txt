@@ -24,9 +24,10 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 ! historyweb.dennikn.sk 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
-! kissanime.com/ 11.7.2015
+! kissanime.com/ 25.10.2015
 kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
 ||kissanime.com/ads/madads.aspx
+||kissmanga.com/ads/sideskins/*.jpg
 
 ! serialy.sledujufilmy.cz/ 16.7.2015
 ||serialy.sledujufilmy.cz/img/robot/w600xh190.png
@@ -94,5 +95,15 @@ opensubtitles.org##DIV.content[style="position:relative;"] > A
 ! reklamne video 23. 10. 2015
 ||https://www.youtube.com/embed/P-nkjs7L4cg*
 
-! sktorrent.eu/ 20. 10. 2015
+! sktorrent.eu/ 25. 10. 2015
 ||sktorrent.eu/torrent/images/banner*.gif
+||sktorrent.eu/torrent/images/zamok/thumb.jpg
+||e-posta.eu/banner/banner250x250.swf
+sktorrent.eu###mini-notification
+
+! flashx.tv/ 25.10. 2015
+||playing.flashx.tv*/player_embed.js
+@@||static.flashx.tv/js/advertisement.js
+
+! nosteam.ro/ 24. 10. 2015
+nosteam.ro###stickynote3
