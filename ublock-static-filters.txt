@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 23 Oct 2015 12:50 GMT+2
+! Last modified: 25 Oct 2015 12:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -17,7 +17,6 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 ! topky.sk/ 6.7.2015
 ||recycle-static.zoznam.sk/*.swf
 ||recycle-static.zoznam.sk/2015/06/250x700_mKonto_SK.gif
-||recycle-static.zoznam.sk/2015/05/fitness-300x300.jpg
 ||recycle-static.zoznam.sk/*/*/*.jpg
 ||kariera.zoznam.sk/?page=banner
 
