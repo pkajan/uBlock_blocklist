@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 25 Oct 2015 12:00 GMT
+! Last modified: 26 Oct 2015 10:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -16,11 +16,11 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 
 ! topky.sk/ 6.7.2015
 ||recycle-static.zoznam.sk/*.swf
-||recycle-static.zoznam.sk/2015/06/250x700_mKonto_SK.gif
+||recycle-static.zoznam.sk/*/*/*.gif
 ||recycle-static.zoznam.sk/*/*/*.jpg
 ||kariera.zoznam.sk/?page=banner
 
-! historyweb.dennikn.sk 9.7.2015
+! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
 ! kissanime.com/ 25.10.2015
@@ -28,11 +28,12 @@ kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barCon
 ||kissanime.com/ads/madads.aspx
 ||kissmanga.com/ads/sideskins/*.jpg
 
-! serialy.sledujufilmy.cz/ 16.7.2015
-||serialy.sledujufilmy.cz/img/robot/w600xh190.png
-||serialy.sledujufilmy.cz/img/robot/w970xh310.png
-serialy.sledujufilmy.cz###adspos38
+! serialy.sledujufilmy.cz/ 26.10.2015
+||serialy.sledujufilmy.cz/img/robot/w*xh*.png
 serialy.sledujufilmy.cz###episodes--list > dl > .animateIn.accordionItem > .advert-fix-height
+serialy.sledujufilmy.cz###adspos*
+serialy.sledujufilmy.cz###content > .wide.wrapper > .inner-wrapper > div:nth-of-type(3) > .mlist--list:nth-of-type(1) > .mTop0.movies_list_advert
+serialy.sledujufilmy.cz###content > .wide.wrapper > .inner-wrapper > .right.fxpanel
 
 ! picfox.org/ 19.7.2015
 picfox.org###overlayBg
@@ -40,7 +41,7 @@ picfox.org###overlayBg
 ! imgnip.com/ 19.7.2015
 www.imgnip.com###overlayBg
 
-! topserialy.sk 30.7.2015
+! topserialy.sk/ 30.7.2015
 ||sk.search.etargetnet.com/generic/generic.php
 topserialy.sk##body > div:nth-of-type(6)
 topserialy.sk##script:contains(if (jQuery('#ad-box').css("display") == "none")) 
@@ -49,13 +50,13 @@ topserialy.sk##script:contains(if (jQuery('#ad-box').css("display") == "none"))
 9gag.com###jsid-idle-popup-container > .idle.modal
 9gag.com###overlay-container
 
-! warxtreme.com 17. 8. 2015
+! warxtreme.com/ 17. 8. 2015
 ||www.warxtreme.com/index_files/logo.swf
 
 ! video.anyfiles.pl/ 16.10.2015
 video.anyfiles.pl##div > .adblInfo
 
-! gallerynova.se 1. 9. 2015
+! gallerynova.se/ 1. 9. 2015
 ||gallerynova.se/themes/default/img/box/box-bg.png
 gallerynova.se###works
 gallerynova.se###interstitialPageText
@@ -64,7 +65,7 @@ gallerynova.se###bbbblink > div > div > div
 gallerynova.se##.__b-popup1__.b-modal
 gallerynova.se###frameToShow
 
-! konachan.com 4. 9. 2015
+! konachan.com/ 4. 9. 2015
 ||konachan.com/images/bam/jlist7-1.jpg
 
 ! animetorrents.me/ 6. 10. 2015
@@ -91,7 +92,7 @@ opensubtitles.org##IMG[src*="data:image/jpg;base64"]
 opensubtitles.org###ad1-placeholder
 opensubtitles.org##DIV.content[style="position:relative;"] > A
 
-! reklamne video 23. 10. 2015
+! reklamne.video/ 23. 10. 2015
 ||https://www.youtube.com/embed/P-nkjs7L4cg*
 
 ! sktorrent.eu/ 25. 10. 2015
