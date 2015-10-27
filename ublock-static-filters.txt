@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 27 Oct 2015 21:00 GMT
+! Last modified: 26 Oct 2015 10:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -107,6 +107,3 @@ sktorrent.eu###mini-notification
 
 ! nosteam.ro/ 24. 10. 2015
 nosteam.ro###stickynote3
-
-! UNBREAK 27. 10. 2015
-@@kat.cr,katproxy.is,kickass.unblocked.la,kickassto.co,thekat.tv##div:first-child > [onclick]
