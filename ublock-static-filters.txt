@@ -5,6 +5,14 @@
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
 
+! ///// UNBREAK \\\\\
+
+! playblink.com/ 
+@@||http://www.playblink.com/images/signin_steam.png
+
+
+! ///// NORMAL FILTERS \\\\\
+
 ! dsl.sk/ 23.6.2015
 dsl.sk###body > table:nth-of-type(2)
 
@@ -86,7 +94,6 @@ opensubtitles.org##script:contains(jQuery("time.timeago").timeago();)
 filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike({)
 
 ! opensubtitles.org/ 18. 10. 2015
-@@||ads2.opensubtitles.org/1/www/delivery/*
 opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
 opensubtitles.org##IMG[src*="data:image/jpg;base64"]
 opensubtitles.org###ad1-placeholder
@@ -103,7 +110,6 @@ sktorrent.eu###mini-notification
 
 ! flashx.tv/ 25.10. 2015
 ||playing.flashx.tv*/player_embed.js
-@@||static.flashx.tv/js/advertisement.js
 
 ! nosteam.ro/ 24. 10. 2015
 nosteam.ro###stickynote3
