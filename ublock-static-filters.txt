@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 26 Oct 2015 10:00 GMT
+! Last modified: 03 Nov 2015 10:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -99,8 +99,9 @@ opensubtitles.org##IMG[src*="data:image/jpg;base64"]
 opensubtitles.org###ad1-placeholder
 opensubtitles.org##DIV.content[style="position:relative;"] > A
 
-! reklamne.video/ 23. 10. 2015
+! reklamne.video/ 31. 10. 2015
 ||https://www.youtube.com/embed/P-nkjs7L4cg*
+||www.youtube.com/embed/NzjKW1kOucM*
 
 ! sktorrent.eu/ 25. 10. 2015
 ||sktorrent.eu/torrent/images/banner*.gif
