@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 03 Nov 2015 10:00 GMT
+! Last modified: 06 Nov 2015 14:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -114,3 +114,11 @@ sktorrent.eu###mini-notification
 
 ! nosteam.ro/ 24. 10. 2015
 nosteam.ro###stickynote3
+
+! youbo.iprima.cz/ 4. 11. 2015
+||youbo.iprima.cz/video/get-player-overlay
+youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"] > .fa-times.fa
+youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"]
+
+! imgtrex.com/ 5. 11. 2015
+http://imgtrex.com/js/raptor.js
