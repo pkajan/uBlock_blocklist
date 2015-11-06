@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 06 Nov 2015 14:00 GMT
+! Last modified: 06 Nov 2015 15:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -52,7 +52,7 @@ www.imgnip.com###overlayBg
 ! topserialy.sk/ 30.7.2015
 ||sk.search.etargetnet.com/generic/generic.php
 topserialy.sk##body > div:nth-of-type(6)
-topserialy.sk##script:contains(if (jQuery('#ad-box').css("display") == "none")) 
+topserialy.sk##script:contains(if (jQuery('.big-ad').css("display"))
 
 ! 9gag.com/ 31.7.2015
 9gag.com###jsid-idle-popup-container > .idle.modal
