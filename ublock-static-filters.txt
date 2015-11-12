@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
+﻿[Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 06 Nov 2015 15:00 GMT
+! Last modified: 12 Nov 2015 14:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -122,3 +122,6 @@ youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overla
 
 ! imgtrex.com/ 5. 11. 2015
 http://imgtrex.com/js/raptor.js
+
+! demotivacia.com/ 12. 11. 2015
+||http://www.demotivacia.com/wp-content/themes/demotivacia/js/hell.js
