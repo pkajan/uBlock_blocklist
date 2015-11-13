@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 12 Nov 2015 14:00 GMT
+! Last modified: 13 Nov 2015 08:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -73,8 +73,10 @@ gallerynova.se###bbbblink > div > div > div
 gallerynova.se##.__b-popup1__.b-modal
 gallerynova.se###frameToShow
 
-! konachan.com/ 4. 9. 2015
-||konachan.com/images/bam/jlist7-1.jpg
+! konachan.com/ 12. 11. 2015
+||tbib.org/kona/300.php
+||tbib.org/kona/600.php
+||tbib.org/kona/700.php
 
 ! animetorrents.me/ 6. 10. 2015
 ||i.imgur.com/N0nb0xx.png
