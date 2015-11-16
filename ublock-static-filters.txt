@@ -1,6 +1,6 @@
-﻿[Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 13 Nov 2015 08:00 GMT
+! Last modified: 16 Nov 2015 08:00 GMT
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -31,10 +31,11 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
-! kissanime.com/ 25.10.2015
+! kissanime.com/ 16.11.2015
 kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
 ||kissanime.com/ads/madads.aspx
 ||kissmanga.com/ads/sideskins/*.jpg
+kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:)
 
 ! serialy.sledujufilmy.cz/ 26.10.2015
 ||serialy.sledujufilmy.cz/img/robot/w*xh*.png
