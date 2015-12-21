@@ -39,7 +39,7 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
 ||kissanime.com/ads/madads.aspx
 ||kissmanga.com/ads/sideskins/*.jpg
-kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:)
+kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:")
 
 ! serialy.sledujufilmy.cz/ 26.10.2015
 ||serialy.sledujufilmy.cz/img/robot/w*xh*.png
@@ -57,7 +57,7 @@ www.imgnip.com###overlayBg
 ! topserialy.sk/ 30.7.2015
 ||sk.search.etargetnet.com/generic/generic.php
 topserialy.sk##body > div:nth-of-type(6)
-topserialy.sk##script:contains(if (jQuery('.big-ad').css("display"))
+topserialy.sk##script:contains(if (jQuery('.big-ad').css("display")))
 
 ! 9gag.com/ 31.7.2015
 9gag.com###jsid-idle-popup-container > .idle.modal
@@ -105,7 +105,7 @@ opensubtitles.org##script:contains(jQuery("time.timeago").timeago();)
 
 ! filmy-serialy-online.tv/ 16. 10. 2015
 ||filmy-serialy-online.tv/images/banner160x600.swf
-filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike({)
+filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike({))
 
 ! opensubtitles.org/ 18. 10. 2015
 opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
