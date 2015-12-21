@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 16 Nov 2015 08:00 GMT
+! Last modified: 21 Dec 2015 08:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -10,6 +10,10 @@
 ! playblink.com/ 
 @@||http://www.playblink.com/images/signin_steam.png
 
+! ///// ANNOYANCES \\\\\
+
+! snowing
+*jquery.snow.min.1.0.js
 
 ! ///// NORMAL FILTERS \\\\\
 
@@ -73,6 +77,13 @@ gallerynova.se###techoxioPreloader
 gallerynova.se###bbbblink > div > div > div
 gallerynova.se##.__b-popup1__.b-modal
 gallerynova.se###frameToShow
+
+! hentai-foundry.com/ 30. 11. 2015
+||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_15.jpg
+||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_6.gif
+
+! hentaiplay.net/ 12. 12. 2015
+hentaiplay.net###video_overlays
 
 ! konachan.com/ 12. 11. 2015
 ||tbib.org/kona/300.php
