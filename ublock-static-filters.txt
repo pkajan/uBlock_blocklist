@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 21 Dec 2015 08:40 UTC
+! Last modified: 05 Jan 2015 21:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -39,7 +39,7 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
 ||kissanime.com/ads/madads.aspx
 ||kissmanga.com/ads/sideskins/*.jpg
-kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:")
+kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:)
 
 ! serialy.sledujufilmy.cz/ 26.10.2015
 ||serialy.sledujufilmy.cz/img/robot/w*xh*.png
@@ -85,10 +85,10 @@ gallerynova.se###frameToShow
 ! hentaiplay.net/ 12. 12. 2015
 hentaiplay.net###video_overlays
 
-! konachan.com/ 12. 11. 2015
-||tbib.org/kona/300.php
-||tbib.org/kona/600.php
-||tbib.org/kona/700.php
+! konachan.com/ 05. 01. 2016
+||tbib.org/*/300.php
+||tbib.org/*/600.php
+||tbib.org/*/700.php
 
 ! animetorrents.me/ 6. 10. 2015
 ||i.imgur.com/N0nb0xx.png
@@ -105,7 +105,7 @@ opensubtitles.org##script:contains(jQuery("time.timeago").timeago();)
 
 ! filmy-serialy-online.tv/ 16. 10. 2015
 ||filmy-serialy-online.tv/images/banner160x600.swf
-filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike({))
+filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike)
 
 ! opensubtitles.org/ 18. 10. 2015
 opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
@@ -139,3 +139,8 @@ http://imgtrex.com/js/raptor.js
 
 ! demotivacia.com/ 12. 11. 2015
 ||http://www.demotivacia.com/wp-content/themes/demotivacia/js/hell.js
+
+
+! serialycz.cz/ 29. 12. 2015
+www.serialycz.cz###hstp-bg11588-overlay
+www.serialycz.cz###hstp_11588_interstitial
