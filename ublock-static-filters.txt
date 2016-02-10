@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 10 Jan 2016 18:10 UTC
+! Last modified: 10 Jan 2016 20:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -59,6 +59,7 @@ www.imgnip.com###overlayBg
 @@||www.topserialy.sk/js/jquery.js
 @@||www.topserialy.sk/js/script.js
 @@||www.topserialy.sk/js/jquery-ui.js
+topserialy.sk##script:contains(function adBlockDetected())
 
 
 ! 9gag.com/ 31.7.2015
@@ -80,9 +81,11 @@ gallerynova.se###bbbblink > div > div > div
 gallerynova.se##.__b-popup1__.b-modal
 gallerynova.se###frameToShow
 
-! hentai-foundry.com/ 30. 11. 2015
+! hentai-foundry.com/ 10. 02. 2016
 ||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_15.jpg
 ||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_6.gif
+||img.hentai-foundry.com/themes/Hentai/images/015.gif
+||img.hentai-foundry.com/themes/Hentai/images/pussysaga_003.gif
 
 ! hentaiplay.net/ 12. 12. 2015
 hentaiplay.net###video_overlays
