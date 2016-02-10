@@ -56,6 +56,9 @@ www.imgnip.com###overlayBg
 
 ! topserialy.sk/ 10.02.2016
 ||http*topserialy.sk/*.js
+@@||www.topserialy.sk/js/jquery.js
+@@||www.topserialy.sk/js/script.js
+@@||www.topserialy.sk/js/jquery-ui.js
 
 
 ! 9gag.com/ 31.7.2015
