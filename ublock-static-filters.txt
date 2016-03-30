@@ -20,12 +20,6 @@
 ! dsl.sk/ 23.6.2015
 dsl.sk###body > table:nth-of-type(2)
 
-! galagiveaways.com/ 2.7.2015
-||media.goodgamestudios.com/games/empire/
-www.galagiveaways.com###content > .height114.ads:nth-of-type(1)
-www.galagiveaways.com###content > .height114.ads:nth-of-type(2)
-www.galagiveaways.com###content > .position-featured > .layout-2-column
-
 ! topky.sk/ 6.7.2015
 ||recycle-static.zoznam.sk/*.swf
 ||recycle-static.zoznam.sk/*/*/*.gif
@@ -35,18 +29,12 @@ www.galagiveaways.com###content > .position-featured > .layout-2-column
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
-! kissanime.com/ 16.11.2015
+! kissanime.com/ 30.03.2016
 kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
 ||kissanime.com/ads/madads.aspx
+||kissanime.to/ads/madads300.aspx
 ||kissmanga.com/ads/sideskins/*.jpg
 kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:)
-
-! serialy.sledujufilmy.cz/ 26.10.2015
-||serialy.sledujufilmy.cz/img/robot/w*xh*.png
-serialy.sledujufilmy.cz###episodes--list > dl > .animateIn.accordionItem > .advert-fix-height
-serialy.sledujufilmy.cz##DIV[id^="adspos"]
-serialy.sledujufilmy.cz###content > .wide.wrapper > .inner-wrapper > div:nth-of-type(3) > .mlist--list:nth-of-type(1) > .mTop0.movies_list_advert
-serialy.sledujufilmy.cz###content > .wide.wrapper > .inner-wrapper > .right.fxpanel
 
 ! picfox.org/ 19.7.2015
 picfox.org###overlayBg
@@ -54,12 +42,15 @@ picfox.org###overlayBg
 ! imgnip.com/ 19.7.2015
 www.imgnip.com###overlayBg
 
-! topserialy.sk/ 10.02.2016
+! topserialy.sk/ 30.03.2016
 ||http*topserialy.sk/*.js
 @@||www.topserialy.sk/js/jquery.js
 @@||www.topserialy.sk/js/script.js
 @@||www.topserialy.sk/js/jquery-ui.js
 topserialy.sk##script:contains(function adBlockDetected())
+topserialy.sk##script:contains(if(typeof SratNaVas)
+topserialy.sk##script:contains(function AnoMamAB)
+www.topserialy.sk##body > div:nth-of-type(9)
 
 
 ! 9gag.com/ 31.7.2015
@@ -81,11 +72,13 @@ gallerynova.se###bbbblink > div > div > div
 gallerynova.se##.__b-popup1__.b-modal
 gallerynova.se###frameToShow
 
-! hentai-foundry.com/ 10. 02. 2016
-||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_15.jpg
-||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_6.gif
+! hentai-foundry.com/ 30. 03. 2016
+||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_*.gif
+||img.hentai-foundry.com/themes/Hentai/images/pussysaga_0*.gif
+||img.hentai-foundry.com/themes/Hentai/images/hentai-united/b*.jpg
 ||img.hentai-foundry.com/themes/Hentai/images/015.gif
-||img.hentai-foundry.com/themes/Hentai/images/pussysaga_003.gif
+||img.hentai-foundry.com/themes/Hentai/images/005-3.gif
+||img.hentai-foundry.com/themes/Hentai/images/728_2-1.gif
 
 ! hentaiplay.net/ 12. 12. 2015
 hentaiplay.net###video_overlays
@@ -98,15 +91,9 @@ hentaiplay.net###video_overlays
 ! animetorrents.me/ 6. 10. 2015
 ||i.imgur.com/N0nb0xx.png
 
-! topserialy.sk/ 6. 10. 2015
-www.topserialy.sk##body > div:nth-of-type(9)
-
 ! amk.to/ 15. 10. 2015
 www.amk.to##.fancybox-overlay-fixed.fancybox-overlay > .fancybox-opened.fancybox-type-inline.fancybox-desktop.fancybox-wrap > .fancybox-skin
 www.amk.to##.fancybox-overlay-fixed.fancybox-overlay
-
-! opensubtitles.org/ 15. 10. 2015
-opensubtitles.org##script:contains(jQuery("time.timeago").timeago();) 
 
 ! filmy-serialy-online.tv/ 16. 10. 2015
 ||filmy-serialy-online.tv/images/banner160x600.swf
@@ -117,6 +104,7 @@ opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
 opensubtitles.org##IMG[src*="data:image/jpg;base64"]
 opensubtitles.org###ad1-placeholder
 opensubtitles.org##DIV.content[style="position:relative;"] > A
+opensubtitles.org##script:contains(jQuery("time.timeago").timeago();) 
 
 ! reklamne.video/ 31. 10. 2015
 ||https://www.youtube.com/embed/P-nkjs7L4cg*
