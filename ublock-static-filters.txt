@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 10 Jan 2016 20:30 UTC
+! Last modified: 14 aug 2016 9:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -79,6 +79,7 @@ gallerynova.se###frameToShow
 ||img.hentai-foundry.com/themes/Hentai/images/015.gif
 ||img.hentai-foundry.com/themes/Hentai/images/005-3.gif
 ||img.hentai-foundry.com/themes/Hentai/images/728_2-1.gif
+www.hentai-foundry.com##.activebar
 
 ! hentaiplay.net/ 12. 12. 2015
 hentaiplay.net###video_overlays
@@ -136,3 +137,14 @@ http://imgtrex.com/js/raptor.js
 ! serialycz.cz/ 29. 12. 2015
 www.serialycz.cz###hstp-bg11588-overlay
 www.serialycz.cz###hstp_11588_interstitial
+
+! sximg.nl/ 8. 8. 2016
+sximg.nl##body > div:nth-of-type(6)
+sximg.nl##body > div:nth-of-type(7)
+sximg.nl##script:contains(eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)))
+
+! 4chanarchives.cu.cc/ 3. 8. 2016
+4chanarchives.cu.cc##.boardBanner > .desktop.add
+
+! deviantart.com/ 14. 8. 2016
+deviantart.com###block-notice > .block-notice > .banner-wrap
