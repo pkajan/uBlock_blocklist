@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 22 aug 2016 16:00 UTC
+! Last modified: 02 sep 2016 8:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -14,6 +14,9 @@
 
 ! snowing
 *jquery.snow.min.1.0.js
+
+! weird POPUP
+mydirtyhobby.de*
 
 ! ///// NORMAL FILTERS \\\\\
 
@@ -38,6 +41,9 @@ kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:
 
 ! picfox.org/ 19.7.2015
 picfox.org###overlayBg
+
+! imgpix.net/ 02.09.2016
+imgpix.net##script:contains($)
 
 ! imgnip.com/ 19.7.2015
 www.imgnip.com###overlayBg
