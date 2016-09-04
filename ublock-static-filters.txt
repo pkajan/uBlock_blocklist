@@ -12,6 +12,9 @@
 
 ! ///// ANNOYANCES \\\\\
 
+! block blockadblock
+#@##banner_ad
+
 ! snowing
 *jquery.snow.min.1.0.js
 
