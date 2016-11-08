@@ -10,6 +10,10 @@
 ! playblink.com/ 
 @@||http://www.playblink.com/images/signin_steam.png
 
+! openload.co
+@@||https://cdnjs.cloudflare.com/ajax/libs/video.js/*/video.min.js
+@@||https://cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js
+
 ! ///// ANNOYANCES \\\\\
 
 ! block blockadblock
