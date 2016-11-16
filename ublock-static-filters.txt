@@ -23,7 +23,8 @@
 *jquery.snow.min.1.0.js
 
 ! weird POPUP
-|http://$popup,domain=mydirtyhobby.de|nutaku.net
+|http*://$popup,domain=nutaku.net
+|http*://$popup,domain=mydirtyhobby.de
 mydirtyhobby.de*
 nutaku.net*
 
