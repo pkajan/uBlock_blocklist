@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 25 oct 2016 9:00 UTC
+! Last modified: 17 nov 2016 18:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/My_uBlock_blocklist
 !
@@ -25,6 +25,8 @@
 ! weird POPUP
 |http*://$popup,domain=nutaku.net
 |http*://$popup,domain=mydirtyhobby.de
+||nutaku.net^$popup
+||mydirtyhobby.de^$popup
 mydirtyhobby.de*
 nutaku.net*
 
@@ -93,10 +95,13 @@ www.hentai-foundry.com##.activebar
 ! hentaiplay.net/ 12. 12. 2015
 hentaiplay.net###video_overlays
 
-! konachan.com/ 05. 01. 2016
+! konachan.com/ 17. 11. 2016
 ||tbib.org/*/300.php
 ||tbib.org/*/600.php
 ||tbib.org/*/700.php
+||a.konachan.net/600.php$subdocument
+||a.konachan.net/300.php$subdocument
+||a.konachan.net/700.php$subdocument
 
 ! animetorrents.me/ 6. 10. 2015
 ||i.imgur.com/N0nb0xx.png
