@@ -35,6 +35,9 @@ nutaku.net*
 ! dsl.sk/ 23.6.2015
 dsl.sk###body > table:nth-of-type(2)
 
+! sledujserialy.sk/ 26.11.2016
+sledujserialy.sk##script:contains(BobkoNeblazni)
+
 ! topky.sk/ 6.7.2015
 ||recycle-static.zoznam.sk/*.swf
 ||recycle-static.zoznam.sk/*/*/*.gif
