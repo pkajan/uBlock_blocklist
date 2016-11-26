@@ -74,6 +74,7 @@ topserialy.sk##script:contains(function AnoMamAB)
 www.topserialy.sk##body > div:nth-of-type(9)
 topserialy.sk##script:contains(function nahadblock)
 topserialy.sk##script:contains(div[id^="ffuu"])
+www.topserialy.sk##.sutaz-overlay
 
 
 ! 9gag.com/ 31.7.2015
