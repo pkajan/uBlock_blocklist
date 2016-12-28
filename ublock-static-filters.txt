@@ -18,6 +18,7 @@
 
 ! block blockadblock
 #@##banner_ad
+humr.cz##script:contains(adblock)
 
 ! snowing
 *jquery.snow.min.1.0.js
@@ -43,6 +44,10 @@ sledujserialy.sk##script:contains(BobkoNeblazni)
 ||recycle-static.zoznam.sk/*/*/*.gif
 ||recycle-static.zoznam.sk/*/*/*.jpg
 ||kariera.zoznam.sk/?page=banner
+
+! hiqqu.xxx/ 28.12.2016
+||hiqqu.xxx/static/n/p2.jpg$image
+www.hiqqu.xxx##body > div:nth-of-type(1)
 
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
