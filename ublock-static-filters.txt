@@ -7,9 +7,6 @@
 
 ! ///// UNBREAK \\\\\
 
-! playblink.com/ 
-@@||http://www.playblink.com/images/signin_steam.png
-
 ! openload.co
 @@||https://cdnjs.cloudflare.com/ajax/libs/video.js/*/video.min.js
 @@||https://cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js
@@ -53,10 +50,10 @@ www.hiqqu.xxx##body > div:nth-of-type(1)
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
 ! kissanime.com/ 30.03.2016
-kissanime.com###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
-||kissanime.com/ads/madads.aspx
-||kissanime.to/ads/madads300.aspx
-||kissmanga.com/ads/sideskins/*.jpg
+kissanime.*###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
+||kissanime.*/ads/madads.aspx
+||kissanime.*/ads/madads300.aspx
+||kissmanga.*/ads/sideskins/*.jpg
 kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:)
 
 ! picfox.org/ 19.7.2015
@@ -65,8 +62,16 @@ picfox.org###overlayBg
 ! imgpix.net/ 02.09.2016
 imgpix.net##script:contains($)
 
+! imgtrex.com/ 5. 11. 2015
+http://imgtrex.com/js/raptor.js
+
 ! imgnip.com/ 19.7.2015
 www.imgnip.com###overlayBg
+
+! sximg.nl/ 8. 8. 2016
+sximg.nl##body > div:nth-of-type(6)
+sximg.nl##body > div:nth-of-type(7)
+sximg.nl##script:contains(eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)))
 
 ! topserialy.to/ 27.01.2017
 ||http*topserialy.*/*.js
@@ -80,7 +85,6 @@ topserialy.*##script:contains(function nahadblock)
 topserialy.*##script:contains(div[id^="ffuu"])
 topserialy.*##body > div:nth-of-type(9)
 topserialy.*##.sutaz-overlay
-
 
 ! 9gag.com/ 31.7.2015
 9gag.com###jsid-idle-popup-container > .idle.modal
@@ -151,20 +155,12 @@ nosteam.ro###stickynote3
 youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"] > .fa-times.fa
 youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"]
 
-! imgtrex.com/ 5. 11. 2015
-http://imgtrex.com/js/raptor.js
-
 ! demotivacia.com/ 12. 11. 2015
 ||http://www.demotivacia.com/wp-content/themes/demotivacia/js/hell.js
 
 ! serialycz.cz/ 29. 12. 2015
 www.serialycz.cz###hstp-bg11588-overlay
 www.serialycz.cz###hstp_11588_interstitial
-
-! sximg.nl/ 8. 8. 2016
-sximg.nl##body > div:nth-of-type(6)
-sximg.nl##body > div:nth-of-type(7)
-sximg.nl##script:contains(eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)))
 
 ! 4chanarchives.cu.cc/ 3. 8. 2016
 4chanarchives.cu.cc##.boardBanner > .desktop.add
