@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 27 jan 2017 17:00 UTC
+! Last modified: 28 jan 2017 19:00 UTC
 ! Expires: 1 days (update frequency)
-! Homepage: https://github.com/pkajan/My_uBlock_blocklist
+! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
 
 ! ///// UNBREAK \\\\\
@@ -49,12 +49,17 @@ www.hiqqu.xxx##body > div:nth-of-type(1)
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
-! kissanime.com/ 30.03.2016
-kissanime.*###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
+! kissanime.com/ 28.01.2017
 ||kissanime.*/ads/madads.aspx
-||kissanime.*/ads/madads300.aspx
+||kissanime.*/ads/madads3*.aspx$subdocument
 ||kissmanga.*/ads/sideskins/*.jpg
-kissanime.to##script:contains($('#divContentVideo').html("<div style='font-size:)
+kissanime.*###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
+kissanime.*##script:contains($('#divContentVideo').html("<div style='font-size:)
+kissanime.*##.barContent > div > .clear:nth-of-type(2)
+kissanime.*##.barContent > div > .clear2:nth-of-type(3)
+kissanime.*##.barContent > div > .clear2:nth-of-type(4)
+kissanime.*##.clear2:nth-of-type(6)
+kissanime.*##.barContent > div > div:nth-of-type(7)
 
 ! picfox.org/ 19.7.2015
 picfox.org###overlayBg
