@@ -20,16 +20,17 @@ humr.cz##script:contains(adblock)
 ! snowing
 *jquery.snow.min.1.0.js
 
-! weird POPUP
+! ///// weird POPUP \\\\\
 |http*://$popup,domain=nutaku.net
 |http*://$popup,domain=mydirtyhobby.de
 ||nutaku.net^$popup
 ||mydirtyhobby.de^$popup
 mydirtyhobby.de*
 nutaku.net*
+ifortuna.sk*
+europa2.*##script:contains(adBlockDetected)
 
 ! ///// NORMAL FILTERS \\\\\
-
 ! dsl.sk/ 23.6.2015
 dsl.sk###body > table:nth-of-type(2)
 
@@ -172,3 +173,7 @@ www.serialycz.cz###hstp_11588_interstitial
 
 ! deviantart.com/ 14. 8. 2016
 deviantart.com###block-notice > .block-notice > .banner-wrap
+
+! 8muses.com/ 1. 2. 2017
+www.8muses.com##.a-image
+
