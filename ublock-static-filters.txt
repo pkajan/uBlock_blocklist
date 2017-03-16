@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 28 jan 2017 19:00 UTC
+! Last modified: 16 mar 2017 12:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -29,6 +29,7 @@ mydirtyhobby.de*
 nutaku.net*
 ifortuna.sk*
 europa2.*##script:contains(adBlockDetected)
+bet365.com*
 
 ! ///// NORMAL FILTERS \\\\\
 ! dsl.sk/ 23.6.2015
