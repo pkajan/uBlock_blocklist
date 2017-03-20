@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 16 mar 2017 12:00 UTC
+! Last modified: 20 mar 2017 12:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -178,3 +178,5 @@ deviantart.com###block-notice > .block-notice > .banner-wrap
 ! 8muses.com/ 1. 2. 2017
 www.8muses.com##.a-image
 
+! steamgifts.com/ 20. 3. 2017
+www.steamgifts.com##.sidebar__mpu
