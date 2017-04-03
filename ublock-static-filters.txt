@@ -30,6 +30,7 @@ nutaku.net*
 ifortuna.sk*
 europa2.*##script:contains(adBlockDetected)
 bet365.com*
+tipsport.sk*
 
 ! ///// NORMAL FILTERS \\\\\
 ! dsl.sk/ 23.6.2015
