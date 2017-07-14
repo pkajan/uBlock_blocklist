@@ -32,6 +32,7 @@ europa2.*##script:contains(adBlockDetected)
 bet365.com*
 tipsport.sk*
 kingofwake.tv*
+hentaiheroes.com*
 
 ! ///// NORMAL FILTERS \\\\\
 ! dsl.sk/ 23.6.2015
@@ -49,6 +50,7 @@ sledujserialy.sk##script:contains(BobkoNeblazni)
 ! hiqqu.xxx/ 28.12.2016
 ||hiqqu.xxx/static/n/p2.jpg$image
 www.hiqqu.xxx##body > div:nth-of-type(1)
+||misslk.com/s.php?w=728&h=90&m=0&i=0&l=auto&n=2$image
 
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
@@ -112,6 +114,7 @@ video.anyfiles.pl##div > .adblInfo
 ||img.hentai-foundry.com/themes/Hentai/images/015.gif
 ||img.hentai-foundry.com/themes/Hentai/images/005-3.gif
 ||img.hentai-foundry.com/themes/Hentai/images/728_2-1.gif
+||img.hentai-foundry.com/themes/Hentai/images/2.gif$image
 www.hentai-foundry.com##.activebar
 
 ! hentaiplay.net/ 12. 12. 2015
@@ -185,3 +188,16 @@ www.steamgifts.com##.sidebar__mpu
 
 ! nyaa.se/ 20. 4. 2017
 ||files.nyaa.se/be-*.jpg$image
+
+! www.wish.com/ 12. 7. 2017
+www.wish.com###login-modal-overlay
+www.wish.com###login-modal-forms
+www.wish.com###new-login-modal
+
+! imgskull.xyz/ 13. 7. 2017
+imgskull.*###overlay
+imgskull.*###popup
+
+! pornhub.com/ 27. 6. 2017
+www.pornhub.com##.sectionWrapper:nth-of-type(1) > .nonesuch > zxcvb > iframe
+www.pornhub.com##.sectionWrapper:nth-of-type(1) > .nonesuch
