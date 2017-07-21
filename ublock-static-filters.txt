@@ -84,19 +84,6 @@ sximg.nl##body > div:nth-of-type(6)
 sximg.nl##body > div:nth-of-type(7)
 sximg.nl##script:contains(eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)))
 
-! topserialy.to/ 27.01.2017
-||http*topserialy.*/*.js
-@@||www.topserialy.*/js/jquery.js
-@@||www.topserialy.*/js/script.js
-@@||www.topserialy.*/js/jquery-ui.js
-topserialy.*##script:contains(function adBlockDetected())
-topserialy.*##script:contains(if(typeof SratNaVas)
-topserialy.*##script:contains(function AnoMamAB)
-topserialy.*##script:contains(function nahadblock)
-topserialy.*##script:contains(div[id^="ffuu"])
-topserialy.*##body > div:nth-of-type(9)
-topserialy.*##.sutaz-overlay
-
 ! 9gag.com/ 31.7.2015
 9gag.com###jsid-idle-popup-container > .idle.modal
 9gag.com###overlay-container
