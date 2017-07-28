@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last modified: 21 jul 2017 11:00 UTC
-! Expires: 1 days (update frequency)
+! Last change: 28/07/2017
+! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
 
@@ -21,18 +21,16 @@ humr.cz##script:contains(adblock)
 *jquery.snow.min.1.0.js
 
 ! ///// weird POPUP \\\\\
-|http*://$popup,domain=nutaku.net
-|http*://$popup,domain=mydirtyhobby.de
 ||nutaku.net^$popup
 ||mydirtyhobby.de^$popup
-mydirtyhobby.de*
-nutaku.net*
+||hentaiheroes.com^$popup
 ifortuna.sk*
 europa2.*##script:contains(adBlockDetected)
 bet365.com*
 tipsport.sk*
 kingofwake.tv*
-hentaiheroes.com*
+||www.youtube.com/embed/P-nkjs7L4cg*
+||www.youtube.com/embed/NzjKW1kOucM*
 
 ! ///// NORMAL FILTERS \\\\\
 ! dsl.sk/ 23.6.2015
@@ -50,7 +48,6 @@ sledujserialy.sk##script:contains(BobkoNeblazni)
 ! hiqqu.xxx/ 28.12.2016
 ||hiqqu.xxx/static/n/p2.jpg$image
 www.hiqqu.xxx##body > div:nth-of-type(1)
-||misslk.com/s.php?w=728&h=90&m=0&i=0&l=auto&n=2$image
 
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
@@ -76,9 +73,6 @@ imgpix.net##script:contains($)
 ! imgtrex.com/ 5. 11. 2015
 http://imgtrex.com/js/raptor.js
 
-! imgnip.com/ 19.7.2015
-www.imgnip.com###overlayBg
-
 ! sximg.nl/ 8. 8. 2016
 sximg.nl##body > div:nth-of-type(6)
 sximg.nl##body > div:nth-of-type(7)
@@ -102,6 +96,8 @@ video.anyfiles.pl##div > .adblInfo
 ||img.hentai-foundry.com/themes/Hentai/images/005-3.gif
 ||img.hentai-foundry.com/themes/Hentai/images/728_2-1.gif
 ||img.hentai-foundry.com/themes/Hentai/images/2.gif$image
+||img.hentai-foundry.com/themes/Hentai/images/new.gif$image
+||img.hentai-foundry.com/themes/Hentai/images/TRA_2steps.gif$image
 www.hentai-foundry.com##.activebar
 
 ! hentaiplay.net/ 12. 12. 2015
@@ -133,10 +129,6 @@ opensubtitles.org###ad1-placeholder
 opensubtitles.org##DIV.content[style="position:relative;"] > A
 opensubtitles.org##script:contains(jQuery("time.timeago").timeago();) 
 
-! reklamne.video/ 31. 10. 2015
-||https://www.youtube.com/embed/P-nkjs7L4cg*
-||www.youtube.com/embed/NzjKW1kOucM*
-
 ! sktorrent.eu/ 25. 10. 2015
 ||sktorrent.eu/torrent/images/banner*.gif
 ||sktorrent.eu/torrent/images/zamok/thumb.jpg
@@ -161,9 +153,6 @@ youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overla
 www.serialycz.cz###hstp-bg11588-overlay
 www.serialycz.cz###hstp_11588_interstitial
 
-! 4chanarchives.cu.cc/ 3. 8. 2016
-4chanarchives.cu.cc##.boardBanner > .desktop.add
-
 ! deviantart.com/ 14. 8. 2016
 deviantart.com###block-notice > .block-notice > .banner-wrap
 
@@ -172,9 +161,6 @@ www.8muses.com##.a-image
 
 ! steamgifts.com/ 20. 3. 2017
 www.steamgifts.com##.sidebar__mpu
-
-! nyaa.se/ 20. 4. 2017
-||files.nyaa.se/be-*.jpg$image
 
 ! www.wish.com/ 12. 7. 2017
 www.wish.com###login-modal-overlay
