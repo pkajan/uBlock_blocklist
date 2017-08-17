@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 28/07/2017
+! Last change: 17/08/2017
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -88,10 +88,11 @@ sximg.nl##script:contains(eval(function(p,a,c,k,e,d){e=function(c){return(c<a?''
 ! video.anyfiles.pl/ 16.10.2015
 video.anyfiles.pl##div > .adblInfo
 
-! hentai-foundry.com/ 30. 03. 2016
+! hentai-foundry.com/ 17. 08. 2017
 ||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_*.gif
 ||img.hentai-foundry.com/themes/Hentai/images/pussysaga_0*.gif
 ||img.hentai-foundry.com/themes/Hentai/images/hentai-united/b*.jpg
+||img.hentai-foundry.com/themes/Hentai/images/h-united/b6.jpg$image
 ||img.hentai-foundry.com/themes/Hentai/images/015.gif
 ||img.hentai-foundry.com/themes/Hentai/images/005-3.gif
 ||img.hentai-foundry.com/themes/Hentai/images/728_2-1.gif
@@ -174,3 +175,12 @@ imgskull.*###popup
 ! pornhub.com/ 27. 6. 2017
 www.pornhub.com##.sectionWrapper:nth-of-type(1) > .nonesuch > zxcvb > iframe
 www.pornhub.com##.sectionWrapper:nth-of-type(1) > .nonesuch
+
+! adultwallpapers.co.in/ 17. 08. 2017
+adultwallpapers.co.in##span > div > div > div:nth-of-type(2)
+adultwallpapers.co.in##span > div > div > div:nth-of-type(1)
+adultwallpapers.co.in##span > div > div
+adultwallpapers.co.in##span > div
+adultwallpapers.co.in##.auth.cwv3
+
+
