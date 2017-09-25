@@ -11,6 +11,10 @@
 @@||https://cdnjs.cloudflare.com/ajax/libs/video.js/*/video.min.js
 @@||https://cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js
 
+! ///// FCKING CRYPTOMINING \\\\\
+
+||coin-hive.com/lib/coinhive.min.js
+
 ! ///// ANNOYANCES \\\\\
 
 ! block blockadblock
