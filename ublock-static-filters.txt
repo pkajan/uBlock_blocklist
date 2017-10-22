@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 17/10/2017
+! Last change: 22/10/2017
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -26,22 +26,31 @@ humr.cz##script:contains(adblock)
 
 ! ///// weird POPUP \\\\\
 ||nutaku.net^$popup
+nutaku.net^$popup
 ||mydirtyhobby.de^$popup
-||hentaiheroes.com^$popup
-www.hentaiheroes.com*
+mydirtyhobby.de^$popup
 ||www.hentaiheroes.com^$popup
-http*://darcek-slovakia2017.info*
+www.hentaiheroes.com^$popup
 ||darcek-slovakia2017.info^$popup
-ifortuna.sk*
-europa2.*##script:contains(adBlockDetected)
-bet365.com*
-tipsport.sk*
-kingofwake.tv*
-http*://goodmodernmobile.com*
+darcek-slovakia2017.info^$popup
+||ifortuna.sk^$popup
+ifortuna.sk^$popup
+||bet365.com^$popup
+bet365.com^$popup
+||tipsport.sk^$popup
+||kingofwake.tv^$popup
+kingofwake.tv^$popup
+||goodmodernmobile.com^$popup
+goodmodernmobile.com^$popup
+||promo.betcity.net^$popup
+http://promo.betcity.net^$popup
+||www.tipsport.sk^$popup
+https://www.tipsport.sk^$popup
 ||www.youtube.com/embed/P-nkjs7L4cg*
 ||www.youtube.com/embed/NzjKW1kOucM*
 ||130.211.230.53^$popup
 ||130.211.212.60^$popup
+europa2.*##script:contains(adBlockDetected)
 
 ! ///// NORMAL FILTERS \\\\\
 ! dsl.sk/ 23.6.2015
