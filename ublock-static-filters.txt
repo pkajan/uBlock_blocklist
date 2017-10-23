@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 22/10/2017
+! Last change: 23/10/2017
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -20,6 +20,9 @@
 ! block blockadblock
 #@##banner_ad
 humr.cz##script:contains(adblock)
+||i.imgur.com/FNYndqR.gif$image
+||i.imgur.com/d8EP2f8.gif$image
+||i.imgur.com/ventuBu.gif$image
 
 ! snowing
 *jquery.snow.min.1.0.js
