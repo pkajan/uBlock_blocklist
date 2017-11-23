@@ -71,6 +71,7 @@ sledujserialy.sk##script:contains(BobkoNeblazni)
 ! hiqqu.xxx/ 28.12.2016
 ||hiqqu.xxx/static/n/p2.jpg$image
 www.hiqqu.xxx##body > div:nth-of-type(1)
+||misslk.com/s.php*
 
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
@@ -212,3 +213,8 @@ adultwallpapers.co.in##.auth.cwv3
 ! extratorrent.cd/ 17. 10. 2017
 extratorrent.cd###e_content > div > table
 extratorrent.cd##table:nth-of-type(2)
+
+! hentaisun.com/ 16. 11. 2017
+hentaisun.com##.row:nth-of-type(1) > .span12
+hentaisun.com##.clearfix.widget:nth-of-type(2) > .divider
+hentaisun.com##.clearfix.widget:nth-of-type(2)
