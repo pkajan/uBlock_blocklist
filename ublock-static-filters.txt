@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 23/10/2017
+! Last change: 28/10/2017
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -53,6 +53,12 @@ https://www.tipsport.sk^$popup
 ||www.youtube.com/embed/NzjKW1kOucM*
 ||130.211.230.53^$popup
 ||130.211.212.60^$popup
+||akcie.tipsport.sk^$popup
+akcie.tipsport.sk^$popup
+||vomwe.pro^$popup
+vomwe.pro^$popup
+||inclk.com^$popup
+inclk.com^$popup
 europa2.*##script:contains(adBlockDetected)
 
 ! ///// NORMAL FILTERS \\\\\
