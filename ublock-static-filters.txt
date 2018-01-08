@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 28/10/2017
+! Last change: 08/01/2018
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -23,6 +23,9 @@ humr.cz##script:contains(adblock)
 ||i.imgur.com/FNYndqR.gif$image
 ||i.imgur.com/d8EP2f8.gif$image
 ||i.imgur.com/ventuBu.gif$image
+||i.imgur.com/KgICLjW.gif$image
+||i.imgur.com/AKfNKrz.gif$image
+||i.imgur.com/lEq00Kh.gif$image
 
 ! snowing
 *jquery.snow.min.1.0.js
@@ -224,3 +227,6 @@ extratorrent.cd##table:nth-of-type(2)
 hentaisun.com##.row:nth-of-type(1) > .span12
 hentaisun.com##.clearfix.widget:nth-of-type(2) > .divider
 hentaisun.com##.clearfix.widget:nth-of-type(2)
+
+! pathofexile.com/ 08. 01. 2018
+www.pathofexile.com##.clearfix.legacy.badges
