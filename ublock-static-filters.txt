@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 08/01/2018
+! Last change: 2018/05/14
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -35,8 +35,6 @@ humr.cz##script:contains(adblock)
 nutaku.net^$popup
 ||mydirtyhobby.de^$popup
 mydirtyhobby.de^$popup
-||www.hentaiheroes.com^$popup
-www.hentaiheroes.com^$popup
 ||darcek-slovakia2017.info^$popup
 darcek-slovakia2017.info^$popup
 ||ifortuna.sk^$popup
@@ -183,13 +181,6 @@ youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overla
 ! demotivacia.com/ 12. 11. 2015
 ||http://www.demotivacia.com/wp-content/themes/demotivacia/js/hell.js
 
-! serialycz.cz/ 29. 12. 2015
-www.serialycz.cz###hstp-bg11588-overlay
-www.serialycz.cz###hstp_11588_interstitial
-
-! deviantart.com/ 14. 8. 2016
-deviantart.com###block-notice > .block-notice > .banner-wrap
-
 ! 8muses.com/ 1. 2. 2017
 www.8muses.com##.a-image
 
@@ -204,6 +195,10 @@ www.wish.com###new-login-modal
 ! imgskull.xyz/ 13. 7. 2017
 imgskull.*###overlay
 imgskull.*###popup
+imgskull.*##body > div:nth-of-type(3)
+imgskull.*##body > div:nth-of-type(4)
+imgskull.*##body > div:nth-of-type(9)
+imgskull.*##body > div:nth-of-type(10)
 
 ! pornhub.com/ 27. 6. 2017
 www.pornhub.com##.sectionWrapper:nth-of-type(1) > .nonesuch > zxcvb > iframe
@@ -218,10 +213,7 @@ adultwallpapers.co.in##span > div > div > div:nth-of-type(1)
 adultwallpapers.co.in##span > div > div
 adultwallpapers.co.in##span > div
 adultwallpapers.co.in##.auth.cwv3
-
-! extratorrent.cd/ 17. 10. 2017
-extratorrent.cd###e_content > div > table
-extratorrent.cd##table:nth-of-type(2)
+adultwallpapers.co.in##.dialog-overlay.cwv3
 
 ! hentaisun.com/ 16. 11. 2017
 hentaisun.com##.row:nth-of-type(1) > .span12
