@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2018/05/14
+! Last change: 2018/10/27
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -28,13 +28,11 @@ humr.cz##script:contains(adblock)
 ||i.imgur.com/lEq00Kh.gif$image
 
 ! snowing
-*jquery.snow.min.1.0.js
+*jquery.snow.min.*.js
 
 ! ///// weird POPUP \\\\\
 ||nutaku.net^$popup
 nutaku.net^$popup
-||mydirtyhobby.de^$popup
-mydirtyhobby.de^$popup
 ||darcek-slovakia2017.info^$popup
 darcek-slovakia2017.info^$popup
 ||ifortuna.sk^$popup
@@ -77,23 +75,12 @@ sledujserialy.sk##script:contains(BobkoNeblazni)
 
 ! hiqqu.xxx/ 28.12.2016
 ||hiqqu.xxx/static/n/p2.jpg$image
+||hiqqu.xxx/static/hh/*.gif$image
 www.hiqqu.xxx##body > div:nth-of-type(1)
 ||misslk.com/s.php*
 
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
-
-! kissanime.com/ 28.01.2017
-||kissanime.*/ads/madads.aspx
-||kissanime.*/ads/madads3*.aspx$subdocument
-||kissmanga.*/ads/sideskins/*.jpg
-kissanime.*###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
-kissanime.*##script:contains($('#divContentVideo').html("<div style='font-size:)
-kissanime.*##.barContent > div > .clear:nth-of-type(2)
-kissanime.*##.barContent > div > .clear2:nth-of-type(3)
-kissanime.*##.barContent > div > .clear2:nth-of-type(4)
-kissanime.*##.clear2:nth-of-type(6)
-kissanime.*##.barContent > div > div:nth-of-type(7)
 
 ! picfox.org/ 19.7.2015
 picfox.org###overlayBg
@@ -130,6 +117,8 @@ video.anyfiles.pl##div > .adblInfo
 ||img.hentai-foundry.com/themes/Hentai/images/2.gif$image
 ||img.hentai-foundry.com/themes/Hentai/images/new.gif$image
 ||img.hentai-foundry.com/themes/Hentai/images/TRA_2steps.gif$image
+||img.hentai-foundry.com/themes/Hentai/images/h-united/hu*.png$image
+||img.hentai-foundry.com/themes/Hentai/images/May-*a.gif
 www.hentai-foundry.com##.activebar
 
 ! hentaiplay.net/ 12. 12. 2015
@@ -146,13 +135,25 @@ hentaiplay.net###video_overlays
 ! animetorrents.me/ 6. 10. 2015
 ||i.imgur.com/N0nb0xx.png
 
-! amk.to/ 15. 10. 2015
-www.amk.to##.fancybox-overlay-fixed.fancybox-overlay > .fancybox-opened.fancybox-type-inline.fancybox-desktop.fancybox-wrap > .fancybox-skin
-www.amk.to##.fancybox-overlay-fixed.fancybox-overlay
-
 ! filmy-serialy-online.tv/ 16. 10. 2015
 ||filmy-serialy-online.tv/images/banner160x600.swf
 filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike)
+||easytarget.sk/data/banners/*.jpg*$image
+||easytarget.sk/images/logo_mini.png$image
+||film-serial-online.sk/images/astratex_banner*.jpg$image
+film-serial-online.sk###botrek
+film-serial-online.sk###easytarget1 > span > div
+film-serial-online.sk###easytarget2 > span > div
+film-serial-online.sk###easytarget3 > span > div
+film-serial-online.sk###easytarget4 > span > div
+film-serial-online.sk###easytarget5 > span > div
+film-serial-online.sk###easytarget6 > span > div
+film-serial-online.sk###easytarget7 > span > div
+film-serial-online.sk###easytarget8 > span > div
+film-serial-online.sk###easytarget9 > span > div
+film-serial-online.sk###easytarget10 > span > div
+film-serial-online.sk###easytarget11 > span > div
+film-serial-online.sk##script:contains(adblocker.html)
 
 ! opensubtitles.org/ 18. 10. 2015
 opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
@@ -165,6 +166,11 @@ opensubtitles.org##script:contains(jQuery("time.timeago").timeago();)
 ||sktorrent.eu/torrent/images/banner*.gif
 ||sktorrent.eu/torrent/images/zamok/thumb.jpg
 ||e-posta.eu/banner/banner250x250.swf
+||sktorrent.eu/torrent/images/pokerarena/*.gif$image
+||sktorrent.eu/torrent/blackdot.gif$image
+||sktorrent.eu/torrent/images/sperkyvandama/*.jpg$image
+sktorrent.eu###interVeil
+sktorrent.eu###interContainer
 sktorrent.eu###mini-notification
 
 ! flashx.tv/ 25.10. 2015
