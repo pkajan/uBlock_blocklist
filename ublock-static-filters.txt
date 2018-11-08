@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2018/10/27
+! Last change: 2018/11/08
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -228,3 +228,7 @@ hentaisun.com##.clearfix.widget:nth-of-type(2)
 
 ! pathofexile.com/ 08. 01. 2018
 www.pathofexile.com##.clearfix.legacy.badges
+
+! topserialy.to/ 8. 11. 2018
+www.topserialy.to##.reklamasidebar1
+www.topserialy.to##.sidebar
