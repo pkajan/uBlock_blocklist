@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2019/20/06
+! Last change: 2019/08/06
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -112,6 +112,9 @@ video.anyfiles.pl##div > .adblInfo
 ||img.hentai-foundry.com/themes/Hentai/images/h-united/hu*.png$image
 ||img.hentai-foundry.com/themes/Hentai/images/May-*a.gif
 www.hentai-foundry.com##.activebar
+
+! www.hentaiheroes.com/  6. 6. 2019
+www.hentaiheroes.com###iframe_wrapper
 
 ! hentaiplay.net/ 12. 12. 2015
 hentaiplay.net###video_overlays
@@ -226,3 +229,6 @@ movie-plex.club##.overLay
 ! perveden.com/ 22. 06. 2019
 ||cdn.mangaeden.com/css/page/ui-bg_loop_25_000000_21x21.png$image
 www.perveden.com##body > div:nth-of-type(2)
+
+! www.neowin.net/ 22. 7. 2019
+mdn.neowin.net*
