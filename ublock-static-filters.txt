@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2019/08/06
+! Last change: 2019/11/22
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -82,9 +82,6 @@ www.hiqqu.xxx##body > div:nth-of-type(1)
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
 
-! picfox.org/ 19.7.2015
-picfox.org###overlayBg
-
 ! imgpix.net/ 02.09.2016
 imgpix.net##script:contains($)
 
@@ -94,9 +91,6 @@ imgpix.net##script:contains($)
 
 ! warxtreme.com/ 17. 8. 2015
 ||www.warxtreme.com/index_files/logo.swf
-
-! video.anyfiles.pl/ 16.10.2015
-video.anyfiles.pl##div > .adblInfo
 
 ! hentai-foundry.com/ 17. 08. 2017
 ||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_*.gif
@@ -123,6 +117,7 @@ hentaiplay.net###video_overlays
 ||tbib.org/*/300.php
 ||tbib.org/*/600.php
 ||tbib.org/*/700.php
+||tbib.org/gaming/kona.php$subdocument
 ||a.konachan.net/600.php$subdocument
 ||a.konachan.net/300.php$subdocument
 ||a.konachan.net/700.php$subdocument
@@ -180,9 +175,6 @@ nosteam.ro###stickynote3
 youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"] > .fa-times.fa
 youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"]
 
-! demotivacia.com/ 12. 11. 2015
-||http://www.demotivacia.com/wp-content/themes/demotivacia/js/hell.js
-
 ! 8muses.com/ 1. 2. 2017
 www.8muses.com##.a-image
 
@@ -201,14 +193,6 @@ www.pornhub.com##.onesuch:nth-of-type(1) > iframe
 www.pornhub.com##.onesuch:nth-of-type(2) > iframe
 www.pornhub.com##.* > .adlink2
 
-! adultwallpapers.co.in/ 17. 08. 2017
-adultwallpapers.co.in##span > div > div > div:nth-of-type(2)
-adultwallpapers.co.in##span > div > div > div:nth-of-type(1)
-adultwallpapers.co.in##span > div > div
-adultwallpapers.co.in##span > div
-adultwallpapers.co.in##.auth.cwv3
-adultwallpapers.co.in##.dialog-overlay.cwv3
-
 ! hentaisun.com/ 16. 11. 2017
 hentaisun.com##.row:nth-of-type(1) > .span12
 hentaisun.com##.clearfix.widget:nth-of-type(2) > .divider
@@ -217,11 +201,6 @@ hentaisun.com##.clearfix.widget:nth-of-type(2)
 ! pathofexile.com/ 08. 01. 2018
 www.pathofexile.com##.clearfix.legacy.badges
 www.pathofexile.com##.posted-by > .clearfix.badges
-
-! topserialy.to/ 21. 07. 2019
-www.topserialy.to##.reklamasidebar1
-www.topserialy.to##.sidebar
-topserialy.to##script:contains(AnoMamAB)
 
 ! movie-plex.club 6. 06. 2019 
 movie-plex.club##.overLay
@@ -232,3 +211,7 @@ www.perveden.com##body > div:nth-of-type(2)
 
 ! www.neowin.net/ 22. 7. 2019
 mdn.neowin.net*
+
+! www.rlslog.net/ 22. 11. 2019 
+rlslog.net##script:contains(adcashMacros)
+
