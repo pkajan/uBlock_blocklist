@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2019/11/22
+! Last change: 2020/03/24
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -10,6 +10,7 @@
 ! openload.co
 @@||https://cdnjs.cloudflare.com/ajax/libs/video.js/*/video.min.js
 @@||https://cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js
+@@||www.youtube.com/get_video_info?*=detailpage$xhr,domain=youtube.com
 
 ! ///// FCKING CRYPTOMINING \\\\\
 
@@ -33,25 +34,18 @@ humr.cz##script:contains(adblock)
 ! ///// weird POPUP \\\\\
 ||nutaku.net^$popup
 nutaku.net^$popup
-||darcek-slovakia2017.info^$popup
-darcek-slovakia2017.info^$popup
 ||ifortuna.sk^$popup
 ifortuna.sk^$popup
 ||bet365.com^$popup
 bet365.com^$popup
 ||tipsport.sk^$popup
-||kingofwake.tv^$popup
-kingofwake.tv^$popup
-||goodmodernmobile.com^$popup
-goodmodernmobile.com^$popup
+tipsport.sk^$popup
 ||promo.betcity.net^$popup
 http://promo.betcity.net^$popup
 ||www.tipsport.sk^$popup
 https://www.tipsport.sk^$popup
 ||www.youtube.com/embed/P-nkjs7L4cg*
 ||www.youtube.com/embed/NzjKW1kOucM*
-||130.211.230.53^$popup
-||130.211.212.60^$popup
 ||akcie.tipsport.sk^$popup
 akcie.tipsport.sk^$popup
 ||vomwe.pro^$popup
