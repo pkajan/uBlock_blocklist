@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2020/03/24
+! Last change: 2021/05/02
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -75,9 +75,6 @@ www.hiqqu.xxx##body > div:nth-of-type(1)
 
 ! historyweb.dennikn.sk/ 9.7.2015
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
-
-! imgpix.net/ 02.09.2016
-imgpix.net##script:contains($)
 
 ! 9gag.com/ 31.7.2015
 9gag.com###jsid-idle-popup-container > .idle.modal
@@ -211,3 +208,7 @@ rlslog.net##script:contains(adcashMacros)
 
 ! zive.aktuality.sk/ 22. . 20
 zive.aktuality.sk##script:contains(adblocker)
+
+
+! ostatne
+||skimresources.com^
