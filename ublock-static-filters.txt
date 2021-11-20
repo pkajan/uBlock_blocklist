@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2021/05/02
+! Last change: 2021/11/20
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -58,8 +58,12 @@ europa2.*##script:contains(adBlockDetected)
 ! dsl.sk/ 23.6.2015
 dsl.sk###body > table:nth-of-type(2)
 
-! sledujserialy.sk/ 26.11.2016
-sledujserialy.sk##script:contains(BobkoNeblazni)
+! sledujserialy.io/ 26.11.2016
+sledujserialy.io##script:contains(BobkoNeblazni)
+||sledujserialy.io/theme/json/episode.ad.etarget.php?adlink=
+sledujserialy.io##.w-episode-source > div[id][style^="position: absolute; top: 0"]:not([class])
+sledujserialy.io###hideSuperSecretAd
+thisirussia.io##div:nth-of-type(13)
 
 ! topky.sk/ 6.7.2015
 ||recycle-static.zoznam.sk/*.swf
@@ -116,26 +120,6 @@ hentaiplay.net###video_overlays
 ! animetorrents.me/ 6. 10. 2015
 ||i.imgur.com/N0nb0xx.png
 
-! filmy-serialy-online.tv/ 16. 10. 2015
-||filmy-serialy-online.tv/images/banner160x600.swf
-filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike)
-||easytarget.sk/data/banners/*.jpg*$image
-||easytarget.sk/images/logo_mini.png$image
-||film-serial-online.sk/images/astratex_banner*.jpg$image
-film-serial-online.sk###botrek
-film-serial-online.sk###easytarget1 > span > div
-film-serial-online.sk###easytarget2 > span > div
-film-serial-online.sk###easytarget3 > span > div
-film-serial-online.sk###easytarget4 > span > div
-film-serial-online.sk###easytarget5 > span > div
-film-serial-online.sk###easytarget6 > span > div
-film-serial-online.sk###easytarget7 > span > div
-film-serial-online.sk###easytarget8 > span > div
-film-serial-online.sk###easytarget9 > span > div
-film-serial-online.sk###easytarget10 > span > div
-film-serial-online.sk###easytarget11 > span > div
-film-serial-online.sk##script:contains(adblocker.html)
-
 ! opensubtitles.org/ 18. 10. 2015
 opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
 opensubtitles.org##IMG[src*="data:image/jpg;base64"]
@@ -155,16 +139,8 @@ sktorrent.eu###interVeil
 sktorrent.eu###interContainer
 sktorrent.eu###mini-notification
 
-! flashx.tv/ 25.10. 2015
-||playing.flashx.tv*/player_embed.js
-
 ! nosteam.ro/ 24. 10. 2015
 nosteam.ro###stickynote3
-
-! youbo.iprima.cz/ 4. 11. 2015
-||youbo.iprima.cz/video/get-player-overlay
-youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"] > .fa-times.fa
-youbo.iprima.cz###video > .noselect.youbo-player.player-wrapper > .player-overlay > .banner > .container > .close.control.tooltip[href="#"]
 
 ! 8muses.com/ 1. 2. 2017
 www.8muses.com##.a-image
@@ -202,9 +178,6 @@ www.perveden.com##body > div:nth-of-type(2)
 
 ! www.neowin.net/ 22. 7. 2019
 mdn.neowin.net*
-
-! www.rlslog.net/ 22. 11. 2019 
-rlslog.net##script:contains(adcashMacros)
 
 ! zive.aktuality.sk/ 22. . 20
 zive.aktuality.sk##script:contains(adblocker)
