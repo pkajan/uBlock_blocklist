@@ -1,16 +1,12 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2021/11/20
+! Last change: 2022/10/26
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
 
 ! ///// UNBREAK \\\\\
 
-! openload.co
-@@||https://cdnjs.cloudflare.com/ajax/libs/video.js/*/video.min.js
-@@||https://cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js
-@@||www.youtube.com/get_video_info?*=detailpage$xhr,domain=youtube.com
 
 ! ///// FCKING CRYPTOMINING \\\\\
 
@@ -64,6 +60,7 @@ sledujserialy.io##script:contains(BobkoNeblazni)
 sledujserialy.io##.w-episode-source > div[id][style^="position: absolute; top: 0"]:not([class])
 sledujserialy.io###hideSuperSecretAd
 thisirussia.io##div:nth-of-type(13)
+serialy.io##.adsWarning
 
 ! topky.sk/ 6.7.2015
 ||recycle-static.zoznam.sk/*.swf
@@ -83,6 +80,9 @@ www.hiqqu.xxx##body > div:nth-of-type(1)
 ! 9gag.com/ 31.7.2015
 9gag.com###jsid-idle-popup-container > .idle.modal
 9gag.com###overlay-container
+9gag.com##div article:has(a[class=ui-post-creator__author]:has-text(9GAGGER))
+9gag.com##div article:has(a[class="ui-post-creator_author promoted"])
+9gag.com##a.campaign-banner
 
 ! warxtreme.com/ 17. 8. 2015
 ||www.warxtreme.com/index_files/logo.swf
@@ -93,11 +93,6 @@ www.hiqqu.xxx##body > div:nth-of-type(1)
 ||img.hentai-foundry.com/themes/Hentai/images/hentai-united/b*.jpg
 ||img.hentai-foundry.com/themes/Hentai/images/h-united/b6.jpg$image
 ||img.hentai-foundry.com/themes/Hentai/images/015.gif
-||img.hentai-foundry.com/themes/Hentai/images/005-3.gif
-||img.hentai-foundry.com/themes/Hentai/images/728_2-1.gif
-||img.hentai-foundry.com/themes/Hentai/images/2.gif$image
-||img.hentai-foundry.com/themes/Hentai/images/new.gif$image
-||img.hentai-foundry.com/themes/Hentai/images/TRA_2steps.gif$image
 ||img.hentai-foundry.com/themes/Hentai/images/h-united/hu*.png$image
 ||img.hentai-foundry.com/themes/Hentai/images/May-*a.gif
 www.hentai-foundry.com##.activebar
@@ -171,10 +166,6 @@ www.pathofexile.com##.posted-by > .clearfix.badges
 
 ! movie-plex.club 6. 06. 2019 
 movie-plex.club##.overLay
-
-! perveden.com/ 22. 06. 2019
-||cdn.mangaeden.com/css/page/ui-bg_loop_25_000000_21x21.png$image
-www.perveden.com##body > div:nth-of-type(2)
 
 ! www.neowin.net/ 22. 7. 2019
 mdn.neowin.net*
