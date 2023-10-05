@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2022/10/26
+! Last change: 2023-10-05
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -51,10 +51,8 @@ inclk.com^$popup
 europa2.*##script:contains(adBlockDetected)
 
 ! ///// NORMAL FILTERS \\\\\
-! dsl.sk/ 23.6.2015
-dsl.sk###body > table:nth-of-type(2)
 
-! sledujserialy.io/ 26.11.2016
+! sledujserialy.io/ 2016-11-26
 sledujserialy.io##script:contains(BobkoNeblazni)
 ||sledujserialy.io/theme/json/episode.ad.etarget.php?adlink=
 sledujserialy.io##.w-episode-source > div[id][style^="position: absolute; top: 0"]:not([class])
@@ -62,32 +60,14 @@ sledujserialy.io###hideSuperSecretAd
 thisirussia.io##div:nth-of-type(13)
 serialy.io##.adsWarning
 
-! topky.sk/ 6.7.2015
-||recycle-static.zoznam.sk/*.swf
-||recycle-static.zoznam.sk/*/*/*.gif
-||recycle-static.zoznam.sk/*/*/*.jpg
-||kariera.zoznam.sk/?page=banner
-
-! hiqqu.xxx/ 28.12.2016
-||hiqqu.xxx/static/n/p*.jpg$image
-||hiqqu.xxx/static/hh/*.gif$image
-www.hiqqu.xxx##body > div:nth-of-type(1)
-||misslk.com/s.php*
-
-! historyweb.dennikn.sk/ 9.7.2015
-||historyweb.dennikn.sk/uploads/banners/*.jpg
-
-! 9gag.com/ 31.7.2015
+! 9gag.com/ 2015-07-31
 9gag.com###jsid-idle-popup-container > .idle.modal
 9gag.com###overlay-container
 9gag.com##div article:has(a[class=ui-post-creator__author]:has-text(9GAGGER))
 9gag.com##div article:has(a[class="ui-post-creator_author promoted"])
 9gag.com##a.campaign-banner
 
-! warxtreme.com/ 17. 8. 2015
-||www.warxtreme.com/index_files/logo.swf
-
-! hentai-foundry.com/ 17. 08. 2017
+! hentai-foundry.com/ 2017-08-17
 ||img.hentai-foundry.com/themes/Hentai/images/mofos/iktg_*.gif
 ||img.hentai-foundry.com/themes/Hentai/images/pussysaga_0*.gif
 ||img.hentai-foundry.com/themes/Hentai/images/hentai-united/b*.jpg
@@ -97,13 +77,7 @@ www.hiqqu.xxx##body > div:nth-of-type(1)
 ||img.hentai-foundry.com/themes/Hentai/images/May-*a.gif
 www.hentai-foundry.com##.activebar
 
-! www.hentaiheroes.com/  6. 6. 2019
-www.hentaiheroes.com###iframe_wrapper
-
-! hentaiplay.net/ 12. 12. 2015
-hentaiplay.net###video_overlays
-
-! konachan.com/ 17. 11. 2016
+! konachan.com/ 2016-11-17
 ||tbib.org/*/300.php
 ||tbib.org/*/600.php
 ||tbib.org/*/700.php
@@ -112,67 +86,44 @@ hentaiplay.net###video_overlays
 ||a.konachan.net/300.php$subdocument
 ||a.konachan.net/700.php$subdocument
 
-! animetorrents.me/ 6. 10. 2015
-||i.imgur.com/N0nb0xx.png
-
-! opensubtitles.org/ 18. 10. 2015
-opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
-opensubtitles.org##IMG[src*="data:image/jpg;base64"]
-opensubtitles.org###ad1-placeholder
-opensubtitles.org##DIV.content[style="position:relative;"] > A
-opensubtitles.org##script:contains(jQuery("time.timeago").timeago();) 
-
-! sktorrent.eu/ 25. 10. 2015
-||sktorrent.eu/torrent/images/banner*.gif
-||sktorrent.eu/torrent/images/zamok/thumb.jpg
-||e-posta.eu/banner/banner250x250.swf
-||sktorrent.eu/torrent/images/pokerarena/*.gif$image
-||sktorrent.eu/torrent/blackdot.gif$image
-||sktorrent.eu/torrent/images/sperkyvandama/*.jpg$image
-||sktorrent.eu/torrent/blackdot.gif$image
-sktorrent.eu###interVeil
-sktorrent.eu###interContainer
-sktorrent.eu###mini-notification
-
-! nosteam.ro/ 24. 10. 2015
-nosteam.ro###stickynote3
-
-! 8muses.com/ 1. 2. 2017
+! 8muses.com/ 2017-02-01
 www.8muses.com##.a-image
 
-! steamgifts.com/ 20. 3. 2017
+! steamgifts.com/ 2017-03-20
 www.steamgifts.com##.sidebar__mpu
 
-! www.wish.com/ 12. 7. 2017
+! www.wish.com/ 2017-07-12
 www.wish.com###login-modal-overlay
 www.wish.com###login-modal-forms
 www.wish.com###new-login-modal
 
-! pornhub.com/ 27. 6. 2017
-www.pornhub.com##.sectionWrapper:nth-of-type(1) > .nonesuch > zxcvb > iframe
-www.pornhub.com##.sectionWrapper:nth-of-type(1) > .nonesuch
-www.pornhub.com##.onesuch:nth-of-type(1) > iframe
-www.pornhub.com##.onesuch:nth-of-type(2) > iframe
-www.pornhub.com##.* > .adlink2
-
-! hentaisun.com/ 16. 11. 2017
+! hentaisun.com/ 2017-11-16
 hentaisun.com##.row:nth-of-type(1) > .span12
 hentaisun.com##.clearfix.widget:nth-of-type(2) > .divider
 hentaisun.com##.clearfix.widget:nth-of-type(2)
 
-! pathofexile.com/ 08. 01. 2018
+! pathofexile.com/ 2018-01-08
 www.pathofexile.com##.clearfix.legacy.badges
 www.pathofexile.com##.posted-by > .clearfix.badges
 
-! movie-plex.club 6. 06. 2019 
-movie-plex.club##.overLay
-
-! www.neowin.net/ 22. 7. 2019
+! www.neowin.net/ 2019-07-22
 mdn.neowin.net*
 
-! zive.aktuality.sk/ 22. . 20
+! milionews.com/ 2023-10-05
+milionews.com###main > .widget-title
+milionews.com###dpsp-content-bottom
+milionews.com###main > .clearfix
+milionews.com###dpsp-content-top
+milionews.com##.widget_nav_menu.widget
+milionews.com##.clearfix.sidebar.widget-area
+milionews.com##.site-header
+milionews.com##.entry-content > p
+milionews.com##.entry-header
+milionews.com##.post-navigation.navigation
+milionews.com##.comment-form-comment
+milionews.com##.comment-respond
+milionews.com##.featured-related-posts.featured-col-posts.featured-entries.featured-entries-col
+milionews.com##.footer-wrapper
+
+! zive.aktuality.sk/ 2023-10-05
 zive.aktuality.sk##script:contains(adblocker)
-
-
-! ostatne
-||skimresources.com^
