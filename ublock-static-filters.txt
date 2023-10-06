@@ -127,3 +127,10 @@ milionews.com##.footer-wrapper
 
 ! zive.aktuality.sk/ 2023-10-05
 zive.aktuality.sk##script:contains(adblocker)
+
+! sktorrent.eu/ 2023-10-06 
+||sktorrent.eu/torrent/images/banner*.gif
+||sktorrent.eu/torrent/blackdot.gif$image
+sktorrent.eu###interVeil
+sktorrent.eu###interContainer
+sktorrent.eu###mini-notification
