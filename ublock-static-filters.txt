@@ -138,3 +138,7 @@ sktorrent.eu###mini-notification
 ! https://www.pathofexile.com 21. 8. 2024
 www.pathofexile.com##.badges
 www.pathofexile.com##.signature
+
+! https://outlook.live.com 23. 8. 2024 
+outlook.live.com##.LBktY > .GssDD
+
