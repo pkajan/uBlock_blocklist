@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2024-08-21
+! Last change: 2024-12-19
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -138,6 +138,12 @@ sktorrent.eu###mini-notification
 ! https://www.pathofexile.com 21. 8. 2024
 www.pathofexile.com##.badges
 www.pathofexile.com##.signature
+
+! https://www.facebook.com 19. 12. 2024
+facebook.com##+js(trusted-click-element, body > div[id^="mount"] #scrollview ~ div div[role="button"]:has(> div[data-visualcompletion="ignore"]) )
+facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
+facebook.com##+js(aeld, scroll)
+facebook.com##body > div[class*="__fb-light-mode"]  
 
 ! https://outlook.live.com 23. 8. 2024 
 outlook.live.com##.LBktY > .GssDD
