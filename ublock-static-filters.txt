@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2024-12-19
+! Last change: 2026-05-03
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -58,8 +58,6 @@ sledujserialy.io##script:contains(BobkoNeblazni)
 ||sledujserialy.io/theme/json/episode.ad.etarget.php?adlink=
 sledujserialy.io##.w-episode-source > div[id][style^="position: absolute; top: 0"]:not([class])
 sledujserialy.io###hideSuperSecretAd
-thisirussia.io##div:nth-of-type(13)
-serialy.io##.adsWarning
 
 ! 9gag.com/ 2015-07-31
 9gag.com###jsid-idle-popup-container > .idle.modal
@@ -93,11 +91,6 @@ www.8muses.com##.a-image
 ! steamgifts.com/ 2017-03-20
 www.steamgifts.com##.sidebar__mpu
 
-! www.wish.com/ 2017-07-12
-www.wish.com###login-modal-overlay
-www.wish.com###login-modal-forms
-www.wish.com###new-login-modal
-
 ! hentaisun.com/ 2017-11-16
 hentaisun.com##.row:nth-of-type(1) > .span12
 hentaisun.com##.clearfix.widget:nth-of-type(2) > .divider
@@ -110,22 +103,6 @@ www.pathofexile.com##.posted-by > .clearfix.badges
 ! www.neowin.net/ 2019-07-22
 mdn.neowin.net*
 
-! milionews.com/ 2023-10-05
-milionews.com###main > .widget-title
-milionews.com###dpsp-content-bottom
-milionews.com###main > .clearfix
-milionews.com###dpsp-content-top
-milionews.com##.widget_nav_menu.widget
-milionews.com##.clearfix.sidebar.widget-area
-milionews.com##.site-header
-milionews.com##.entry-content > p
-milionews.com##.entry-header
-milionews.com##.post-navigation.navigation
-milionews.com##.comment-form-comment
-milionews.com##.comment-respond
-milionews.com##.featured-related-posts.featured-col-posts.featured-entries.featured-entries-col
-milionews.com##.footer-wrapper
-
 ! zive.aktuality.sk/ 2023-10-05
 zive.aktuality.sk##script:contains(adblocker)
 
@@ -136,16 +113,20 @@ sktorrent.eu###interVeil
 sktorrent.eu###interContainer
 sktorrent.eu###mini-notification
 
-! https://www.pathofexile.com 21. 8. 2024
+! https://www.pathofexile.com 2026-05-03
 www.pathofexile.com##.badges
 www.pathofexile.com##.signature
+www.pathofexile.com##.clearfix.legacy.badges
+www.pathofexile.com##.clearfix.badges
 
-! https://www.facebook.com 19. 12. 2024
+! https://www.facebook.com 2024-12-19
 facebook.com##+js(trusted-click-element, body > div[id^="mount"] #scrollview ~ div div[role="button"]:has(> div[data-visualcompletion="ignore"]) )
 facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
 facebook.com##+js(aeld, scroll)
 facebook.com##body > div[class*="__fb-light-mode"]  
 
-! https://outlook.live.com 23. 8. 2024 
+! https://outlook.live.com 2024-08-23 
 outlook.live.com##.LBktY > .GssDD
 
+! https://f95zone.to 2026-05-03
+f95zone.to##.is-active.js-reactionsList.reactionsBar
