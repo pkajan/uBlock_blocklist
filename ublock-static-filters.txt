@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: pKajan AdBlock filter
-! Last change: 2026-05-03
+! Last change: 2026-11-06
 ! Expires: 1 days
 ! Homepage: https://github.com/pkajan/uBlock_blocklist
 !
@@ -130,3 +130,6 @@ outlook.live.com##.LBktY > .GssDD
 
 ! https://f95zone.to 2026-05-03
 f95zone.to##.is-active.js-reactionsList.reactionsBar
+
+! https://psa.rip 2026-11-06
+https://psa.rip/wp-content/uploads/2022/01/PSA-2022B.jpg$domain=psa.rip,image
